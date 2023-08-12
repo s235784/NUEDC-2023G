@@ -1,0 +1,2 @@
+int16 offset_x
+int16 offset_y

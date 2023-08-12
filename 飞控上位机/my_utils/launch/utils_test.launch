@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="my_utils" type="devices.py" name="devices" output="screen"/>
+
+    <node pkg="my_utils" type="utils_test" name="utils_test" output="screen"/>
+</launch>

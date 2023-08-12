@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+
+    <include file="$(find yolov5_ros)/launch/yolov5_d435.launch"/>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find realsense2_camera)/launch/rs_t265.launch"/>
+
+    <node pkg="contest2023nano" type="devices.py" name="devices" output="screen"/>
+
+    <node pkg="contest2023nano" type="contest_car" name="contest_car" output="screen"/>
+</launch>

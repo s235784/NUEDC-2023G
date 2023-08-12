@@ -1,0 +1,6 @@
+<launch>
+    <!-- <node pkg="my_utils" type="t265_compass" name="t265_compass" output="screen"/> -->
+    <node pkg="my_utils" type="devices.py" name="devices" output="screen"/>
+
+    <node pkg="example2" type="example2_pose" name="example2_pose" output="screen"/>
+</launch>

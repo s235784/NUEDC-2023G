@@ -1,0 +1,2 @@
+char color
+bool enable
